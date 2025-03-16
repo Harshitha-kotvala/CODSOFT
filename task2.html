@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f9;
+            scroll-behavior: smooth;
+        }
+
+        header, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* About Section */
+        #about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            background-color: #ffffff;
+        }
+
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #skills li {
+            padding: 10px 20px;
+            background-color: #e0e0e0;
+            border-radius: 20px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        #skills li:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Projects Section */
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .project {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .project p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        /* Resume Section */
+        #resume a {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        #resume a:hover {
+            background-color: #45a049;
+        }
+
+        /* Contact Section */
+        #contact p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Harshitha</h1>
+        <p>Aspiring Software Engineer | Passionate Coder</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="C:\Users\Harshitha\OneDrive\Desktop\Documents\photo.jpg" alt="Your Photo">
+        <div>
+            <h2>About Me</h2>
+            <p>Hi! I'm Harshitha, a 2nd-year engineering student passionate about problem-solving, data structures, and algorithms. I am actively working on improving my coding skills and preparing for placements.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>Data Structures & Algorithms</li>
+            <li>HTML & CSS</li>
+            <li>Problem-Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Bank Management System</h3>
+                <p>Developed a Java-based application that allows users to manage their bank accounts, make transactions, and track account balances securely.</p>
+            </div>
+            <div class="project">
+                <h3>Heartstroke Data Analysis</h3>
+                <p>Analyzed heartstroke dataset using Python and machine learning algorithms to predict stroke risks and identify key contributing factors.</p>
+            </div>
+            <div class="project">
+                <h3>N-Queens Problem</h3>
+                <p>Implemented a backtracking algorithm to solve the N-Queens problem, placing N queens on a chessboard without conflicts.</p>
+            </div>
+            <div class="project">
+                <h3>String Replacement Problem</h3>
+                <p>Designed an efficient algorithm to make two strings equal by replacing substrings with their first character.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1yWMVl8GJwMyLr_x0wpTcJO-vfMGL5RIW/view?usp=drive_link" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: kotvalaharshitha@gmail.com</p>
+        <p>Phone: 8919849401</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Harshitha. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
